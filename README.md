@@ -6,7 +6,8 @@ Simple Symfony2 like Service locator
 Helpful for managing different classes
 if you are using PDO, you can do this:
 
-<?
+
+```php
 $config = array(
 ...
     'Db1' => array(
@@ -27,10 +28,11 @@ $config = array(
     ),
 ...
 );
+```
 
 If you need to set dependency you can config:
 
-<?
+```php
 $config = array(
 ...
     'Dep' => array(
@@ -46,3 +48,6 @@ $config = array(
     ),
 ...
 );
+```
+
+have a nice day ;)
